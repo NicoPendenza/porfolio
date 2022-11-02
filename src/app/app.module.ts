@@ -13,7 +13,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
 import {MatInputModule} from '@angular/material/input';
 import {MatGridListModule} from '@angular/material/grid-list';
-import { FormsModule, ReactiveFormsModule } from "@angular/forms"
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import {MatTableModule} from '@angular/material/table';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatDividerModule} from '@angular/material/divider';
+
+
 
 
 
@@ -37,8 +42,9 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms"
     MatGridListModule,
     ReactiveFormsModule,
     FormsModule,
-   
-
+    MatTableModule,
+    MatDatepickerModule,
+    MatDividerModule,
     ],
   providers: [],
   bootstrap: [AppComponent]
